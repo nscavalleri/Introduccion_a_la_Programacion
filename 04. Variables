@@ -1,0 +1,14 @@
+Algoritmo EjemploAsignacionVariablesCorto
+    Definir edad Como Entero
+    Definir nombre Como Texto
+    Definir salario Como Real
+	
+	edad = 25
+    nombre = "Juan"
+	
+	Escribir nombre, " tiene ", edad, " años"
+	
+    Escribir "Ingrese su salario:"
+    Leer salario
+	
+FinAlgoritmo

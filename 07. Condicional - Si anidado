@@ -1,0 +1,18 @@
+Algoritmo VerificarPositivoNegativoCero
+	
+	Definir numeroIngresado Como Entero
+	
+	Escribir "Ingrese un numero" 
+	Leer numeroIngresado 
+	
+	Si (numeroIngresado > 0) Entonces
+		Escribir "El numero es positivo" 
+	SiNo
+		Si (numeroIngresado <0) Entonces
+			Escribir "El numero es negativo"
+		SiNo
+			Escribir "El numero es cero" 
+		FinSi
+	FinSi
+	
+FinAlgoritmo

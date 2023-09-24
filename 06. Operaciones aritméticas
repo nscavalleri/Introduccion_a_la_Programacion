@@ -1,0 +1,83 @@
+//Algoritmo OperadorSuma
+//	Definir numero1, numero2, resultado Como Entero
+//
+//	Escribir "Decime el primer numero a sumar"
+//	Leer numero1
+//	
+//	Escribir "Decime el segundo numero a sumar"
+//	Leer numero2
+//		
+//	resultado = numero1 + numero2
+//	
+//	Escribir "El resultado de la suma es ", resultado 
+//	
+//	
+//FinAlgoritmo
+//
+//Algoritmo OperadorResta
+//	Definir numero1, numero2, resultado Como Entero
+//	
+//	numero1 = 100
+//	numero2 = 50 
+//	Escribir "Decime el primer numero a restar"
+//	Leer numero1
+//	
+//	Escribir "Decime el segundo numero a restar"
+//	Leer numero2
+//	
+//	resultado = numero1 - numero2
+//	
+//	Escribir "El resultado de la resta es ", resultado 
+//	
+//FinAlgoritmo
+
+
+//Algoritmo OperadorMultiplicacion
+//	Definir numero1, numero2, resultado Como Entero
+//	
+//	Escribir "Decime el primer numero a multiplicar"
+//	Leer numero1
+//	
+//	Escribir "Decime el segundo numero a multiplicar"
+//	Leer numero2
+//	
+//	resultado = numero1 * numero2
+//	
+//	Escribir "El resultado de la multiplicación es ", resultado 
+//	
+//FinAlgoritmo
+
+
+
+//Algoritmo OperadorDivision
+//	Definir numero1, numero2  Como Entero
+//	Definir resultado Como Real
+//	
+//	Escribir "Decime el primer numero a dividir"
+//	Leer numero1
+//	
+//	Escribir "Decime el segundo numero a dividir"
+//	Leer numero2
+//	
+//	resultado = numero1 / numero2
+//	
+//	Escribir "El resultado de la división es ", resultado 
+//	
+//FinAlgoritmo
+
+
+Algoritmo OperadorPotencia
+	Definir numero1, numero2  Como Entero
+	Definir resultado Como Real
+	
+	Escribir "Decime el primer numero"
+	Leer numero1
+	
+	Escribir "Decime el segundo numero"
+	Leer numero2
+	
+	resultado = numero1 ^ numero2
+	
+	Escribir "El resultado de la potencia es ", resultado 
+	
+FinAlgoritmo

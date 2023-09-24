@@ -1,0 +1,38 @@
+Algoritmo VariasCosas
+	
+	Definir fraseAMedir, unaParteDeLaFrase como texto 
+	Definir numeroAleatorio, unaFecha, horaDeAhora, anioActual Como Entero
+	
+	Escribir "Tener un texto que nos moleste un poco"
+	Escribir "Tener otro texto más molesto" 
+	
+	Esperar 3 Segundos
+	
+	Borrar Pantalla
+	Escribir "Nuevo texto en una ventana limpia. Presione una tecla para continuar" 
+	
+	Esperar Tecla	
+	
+	Borrar Pantalla
+	Escribir "Ingrese una palabra de la que quiera conocer su longitud" 
+	Leer fraseAMedir
+	
+	Escribir "La palabra ingresada tiene esta cantidad de caracteres:", Longitud(fraseAMedir)
+	
+	unaParteDeLaFrase = Subcadena(fraseAMedir,4,10)
+	
+	Escribir "Lo que obtengo es ", unaParteDeLaFrase
+	
+	numeroAleatorio = azar(100)+1
+	Escribir "el numero al azar es ", numeroAleatorio
+	
+	unaFecha = FechaActual()
+	horaDeAhora = HoraActual()
+	anioActual = trunc(FechaActual()/10000)
+	Escribir "Hoy es ", FechaActual(), " y son las ", horaDeAhora
+	Escribir anioActual
+	
+
+
+	
+FinAlgoritmo

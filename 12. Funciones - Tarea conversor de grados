@@ -1,0 +1,14 @@
+Funcion resultado <- ConvertirAFahrenheit(celsius)
+	resultado <-  (celsius * 9/5) + 32
+FinFuncion
+
+Algoritmo ConvertirCelsiusAFahrenheit
+	Definir temperaturaCelsius, temperaturaFahrenheit Como Real
+	
+	Escribir "Programa para convertir grados Celsius a grados Fahrenheit."
+	Escribir "Ingrese la temperatura en grados Celsius: "
+	Leer temperaturaCelsius
+	
+	Escribir "La temperatura en grados Fahrenheit es: ", ConvertirAFahrenheit(temperaturaCelsius)
+	
+FinAlgoritmo

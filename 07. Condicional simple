@@ -1,0 +1,14 @@
+Algoritmo VerificarVotacion
+	
+	Definir edad Como Entero
+	
+	Escribir "Ingrese su edad" 
+	Leer edad
+	
+	Si (edad >= 18) Entonces
+			Escribir "Ustede puede votar"
+	FinSi
+	
+	Escribir "Gracias por participar del proceso" 
+	
+FinAlgoritmo

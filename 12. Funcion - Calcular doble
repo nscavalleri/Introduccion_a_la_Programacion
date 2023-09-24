@@ -1,0 +1,13 @@
+Funcion doble <- calcularDoble(numero)
+	doble <- numero*2
+FinFuncion
+
+
+Algoritmo CalcularElDoleConFunciones
+	Definir numeroADuplicar Como Entero
+	
+	Escribir "Ingrese el valor del que quiere calcular el doble"
+	Leer numeroADuplicar
+	Escribir "El doble es ", calcularDoble(numeroADuplicar)
+	
+FinAlgoritmo

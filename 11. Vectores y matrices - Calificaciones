@@ -1,0 +1,18 @@
+Algoritmo IngresemosCalificaciones
+	
+	Dimension calificaciones[5]
+	Definir i, suma Como Entero
+	
+	suma=0
+	
+	Escribir "Ingresa tus 5 calificaciones" 
+	
+	Para I= 1 Hasta 5 Hacer
+		Leer calificaciones[i]
+		suma=suma+calificaciones[i]
+	FinPara
+	
+	
+	Escribir "El promedio de las calificaciones es ",suma/(i-1)
+	
+FinAlgoritmo

@@ -1,0 +1,27 @@
+Algoritmo CalculoVuelto
+	
+	Definir producto1, producto2, importeTotal, billete, vuelto Como Real
+	
+	Escribir "Ingrese importe del producto 1"
+	Leer producto1
+	
+	Escribir "Ingrese importe del producto 2"
+	Leer producto2
+	
+	importeTotal = producto1 + producto2
+	
+	Escribir "El importe total es ", importeTotal
+	
+	Escribir "Ingrese el valor de su billete"
+	Leer  billete
+	
+	vuelto = billete - importeTotal
+	
+	Si vuelto >=0 Entonces 
+		Escribir "Su vuelto es de ", vuelto
+	SiNo
+		Escribir "El monto ingresado es insuficiente para realizar el pago. La diferencia es de ", vuelto
+	FinSi
+	
+	
+FinAlgoritmo

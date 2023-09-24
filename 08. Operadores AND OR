@@ -1,0 +1,31 @@
+//Algoritmo VerificarAprobacionOR
+//	
+//	Definir promedio1, promedio2 Como Real
+//	
+//	Escribir "Ingresa el promedio de la asignatura 1 y 2"
+//	Leer promedio1
+//	Leer promedio2
+//	
+//	Si (promedio1 >= 7) O (promedio2 >=7) Entonces
+//		Escribir "Podes pasar de año"
+//	SiNo
+//		Escribir "No podes pasar de año" 
+//	FinSi
+//	
+//FinAlgoritmo
+
+Algoritmo VerificarAprobacionAND
+	
+	Definir promedio1, promedio2 Como Real
+	
+	Escribir "Ingresa el promedio de la asignatura 1 y 2"
+	Leer promedio1
+	Leer promedio2
+	
+	Si (promedio1 >= 7) Y (promedio2 >=7) Entonces
+		Escribir "Podes pasar de año"
+	SiNo
+		Escribir "No podes pasar de año" 
+	FinSi
+	
+FinAlgoritmo

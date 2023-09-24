@@ -1,0 +1,24 @@
+Algoritmo DefinirAprobacion
+	Definir calificacion1, calificacion2, calificacion3, promedio Como Real
+	
+	
+	Escribir "Ingrese la nota de matemática" 
+	Leer calificacion1
+	
+	Escribir "Ingrese la nota de geografía" 
+	Leer calificacion2 
+	
+	Escribir "Ingrese la nota de educación física" 
+	Leer calificacion3
+
+	promedio <- (calificacion1 + calificacion2 + calificacion3) / 3
+	
+	Escribir "El promedio de las calificaciones es: ", promedio
+	
+	Si promedio>= 8 Entonces
+		Escribir "Promocionaste. ¡Disfrutá de tus vacaciones!"
+	SiNo
+		Escribir "Tenes que estudiar para los tres finales"
+	FinSi
+	
+FinAlgoritmo

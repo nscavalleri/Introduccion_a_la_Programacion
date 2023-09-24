@@ -1,0 +1,29 @@
+Algoritmo JuegoAdivinarNumero
+	
+	Definir intentos, numeroSecreto, numeroIngresado Como Entero
+	
+	intentos = 10 
+	numeroSecreto = azar(100)+1 
+	
+	Escribir "Adivina el numero" 
+	Leer numeroIngresado
+	
+	Mientras (numeroSecreto <> numeroIngresado) Y (intentos>1) Hacer
+		Si numeroIngresado > numeroSecreto Entonces
+			Escribir "Dame un numero más bajo" 
+		SiNo
+			Escribir "Dame un numeor más alto" 
+		FinSi
+		intentos= intentos-1 
+		Escribir "Te quedan estos intentos: ", intentos
+		Leer numeroIngresado
+	FinMientras
+	
+	si numeroSecreto=numeroIngresado Entonces
+		Escribir "Felicitaicones, acertaste" 
+	SiNo
+		Escribir "El resultado era: ", numeroSecreto
+	FinSi
+	
+	
+FinAlgoritmo

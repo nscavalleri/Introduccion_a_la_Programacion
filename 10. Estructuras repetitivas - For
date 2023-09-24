@@ -1,0 +1,16 @@
+Algoritmo SumaConFor
+    Definir numeroIngresado, suma Como Entero
+	
+    Escribir "Ingrese un número entero positivo: "
+    Leer numeroIngresado
+	
+    Si numeroIngresado <= 0 Entonces
+        Escribir "Por favor, ingrese un número entero positivo."
+    Sino
+        suma = 0
+        Para i = 1 Hasta numeroIngresado Hacer
+            suma = suma + i
+        FinPara
+        Escribir "La suma de los números desde 1 hasta ", numeroIngresado, " es ", suma
+    FinSi
+FinAlgoritmo

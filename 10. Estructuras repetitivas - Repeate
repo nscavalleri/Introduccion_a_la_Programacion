@@ -1,0 +1,18 @@
+Algoritmo SumaConRepeat
+    Definir numeroIngresado, suma, i Como Entero
+	
+    Escribir "Ingrese un número entero positivo: "
+    Leer numeroIngresado
+	
+    Si numeroIngresado <= 0 Entonces
+        Escribir "Por favor, ingrese un número entero positivo."
+    Sino
+        suma = 0
+        i = 1
+        Repetir
+            suma = suma + i
+            i = i + 1
+        Hasta Que i > numeroIngresado
+        Escribir "La suma de los números desde 1 hasta ", numeroIngresado, " es ", suma
+    FinSi
+FinAlgoritmo

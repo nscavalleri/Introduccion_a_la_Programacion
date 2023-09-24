@@ -1,0 +1,15 @@
+Algoritmo MaquinaExpendedora
+	Definir valorProducto, cantidadIngresada, moneda Como Real
+	
+	valorProducto= 2.5
+	cantidadIngresada=0 
+	
+	Repetir
+		Escribir "Ingrese una moneda"
+		Leer moneda 
+		cantidadIngresada=cantidadIngresada + moneda
+	Hasta Que cantidadIngresada >= valorProducto
+	
+	Escribir "Producto comprado satisfactoriamente, su vuelto es de ", cantidadIngresada-valorProducto
+	
+FinAlgoritmo

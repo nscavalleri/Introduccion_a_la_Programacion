@@ -1,0 +1,16 @@
+Funcion Saludar(nombre)
+	Escribir "Hola ", nombre
+FinFuncion
+
+Algoritmo sin_titulo
+	
+	Definir nombre como texto
+	
+	
+	Escribir "¿A quién queres saludar?"
+	Leer nombre
+	
+	Saludar(nombre)
+	
+	Escribir "Chau"
+FinAlgoritmo

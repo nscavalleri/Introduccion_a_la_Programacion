@@ -1,0 +1,18 @@
+Algoritmo CantidadDedDiasDelMes
+	Definir numeroMes Como Entero
+	
+    Escribir "Ingrese el número de un mes (1 para enero, 2 para febrero, etc.):"
+    Leer numeroMes
+	
+    Segun numeroMes Hacer
+        Caso 1, 3, 5, 7, 8, 10, 12:
+			Escribir "El mes tiene 31 días."
+        Caso 4, 6, 9, 11:
+            Escribir "El mes tiene 30 días."
+        Caso 2:
+            Escribir "El mes de febrero tiene 28 o 29 días, dependiendo del año."
+        De Otro Modo:
+            Escribir "Número de mes no válido."
+    FinSegun
+	
+FinAlgoritmo

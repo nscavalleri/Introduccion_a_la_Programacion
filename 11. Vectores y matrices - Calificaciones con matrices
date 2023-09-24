@@ -1,0 +1,33 @@
+Algoritmo CalificacionesDeAlumnos
+	
+	Dimension alumnos[3]
+	Definir alumnos como Texto
+	Dimension calificaciones[3,4]
+	Definir calificaciones, promedio, suma Como Real
+	Definir file, columna Como Entero
+	
+	Escribir "Ingrese el nombre de los 3 alumnos" 
+	
+	Para fila=1 Hasta 3 Hacer
+		Leer alumnos[fila] 
+	FinPara
+	
+	Para fila =1 Hasta 3 Hacer
+		Escribir "Dame lsa 4 notas del alumno numero ",fila
+		Para columna= 1 Hasta 4 Hacer
+			Leer calificaciones[fila,columna]
+		FinPara
+	FinPara
+	
+
+	
+	Para fila=1 Hasta 3 Hacer
+		suma = 0
+		Para columna=1 Hasta 4 Hacer
+			suma = suma+ calificaciones[fila,columna]
+		FinPara
+		promedio=suma/4 
+		Escribir "El promedio del alumno ", alumnos[fila] , " es ", promedio 
+	FinPara
+	
+FinAlgoritmo

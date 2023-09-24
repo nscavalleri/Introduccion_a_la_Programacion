@@ -1,0 +1,21 @@
+Funcion resultado <- CalcularFactorial(n)
+			Si n = 1 Entonces
+				resultado <- 1
+			Sino
+				resultado <- n*CalcularFactorial(n - 1)
+			FinSi
+FinFuncion
+
+
+
+Algoritmo CalcularFactorialRecursivo
+// Uso de la función
+Definir numero1, resultado Como Entero
+Escribir "Ingrese un número para calcular su factorial: "
+Leer numero1
+
+resultado = CalcularFactorial(numero1)
+
+Escribir "El factorial de ", numero1, " es ", resultado
+
+FinAlgoritmo

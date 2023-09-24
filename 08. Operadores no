@@ -1,0 +1,15 @@
+Algoritmo OperadorIgual
+	
+	Definir numero1, numero2 Como Entero
+	
+	numero1=7
+	numero2=8
+	
+	Si No (numero1 == numero2) Entonces
+		Escribir "Ambos numeros son distintos" 
+	SiNo
+		Escribir "Los numeros son iguales" 
+	FinSi
+	
+	
+FinAlgoritmo

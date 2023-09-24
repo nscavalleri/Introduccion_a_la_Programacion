@@ -1,0 +1,28 @@
+Algoritmo carritoDeCompras
+	Definir opcionIngresada Como Entero
+	
+	Escribir "Elija un producto: (1) Nuggets, (2) Hamburguesas, (3). Coca cola, (4). Cono, (5). Papas fritas o presione 6 para salir"
+	Leer opcionIngresada
+	
+	Repetir 
+	Segun opcionIngresada Hacer
+		1:
+			Escribir "Nuggets añadidos" 
+		2:
+			Escribir "Hamburugesa añadida" 
+		3: 
+			Escribir "Coca cola añadida"
+		4: 
+			Escribir "Cono añadido"
+		5:
+			Escribir "Papas fritas añadidas"
+		De Otro Modo:
+			Escribir "Opción inválida" 
+	FinSegun
+	
+	Escribir "Ingrese nueva opcion" 
+	Leer  opcionIngresada
+	
+Hasta Que opcionIngresada= 6
+	
+FinAlgoritmo
